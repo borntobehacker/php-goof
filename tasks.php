@@ -32,6 +32,8 @@ if(isset($_POST['save_task'])){
         $_SESSION['message'] = 'Task removed successfully';
         $_SESSION['message_type'] = 'warning';
 
+    
+    
 }
 
 header('Location: index.php');
